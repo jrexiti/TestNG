@@ -6,7 +6,12 @@ import org.openqa.selenium.By;
 
 import org.testng.annotations.Test;
 
-public class login5 extends BasePage {
+public class login5 extends BasePage3 {
+
+	public login5() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	@Test
 	public void signIn() throws InterruptedException, IOException {

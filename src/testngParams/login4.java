@@ -6,11 +6,7 @@ import org.openqa.selenium.By;
 
 import org.testng.annotations.Test;
 
-public class login4 extends BasePage2 {
-
-	public login4() throws IOException {
-		super();
-	}
+public class login4 extends BasePage {
 
 	@Test
 	public void signIn() throws InterruptedException, IOException {
