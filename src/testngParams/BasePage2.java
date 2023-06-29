@@ -3,6 +3,7 @@ package testngParams;
 import java.io.File;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,19 +18,23 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.apache.commons.io.FileUtils;
 
-public class BasePage {
+public class BasePage2 {
 
 	public static WebDriver driver;
-	
-	private String url;
 
-	public WebDriver getDriver() throws InterruptedException, IOException {
-		Properties prop = new Properties();
+	private String url;
+	private Properties prop;
+
+	public BasePage2() throws IOException {
+		prop = new Properties();
 
 		FileInputStream data = new FileInputStream(
 				"/Users/jrexiti/Documents/Github/testNG-maven/src/testngParams/config3.properties");
 
 		prop.load(data);
+	}
+
+	public WebDriver getDriver() throws InterruptedException, IOException {
 
 		Thread.sleep(2000);
 
@@ -53,30 +58,25 @@ public class BasePage {
 		return driver;
 
 	}
-	
+
 	public String getUrl() throws IOException {
-		Properties prop = new Properties();
 
-		FileInputStream data = new FileInputStream(
-				"/Users/jrexiti/Documents/Github/testNG-maven/src/testngParams/config3.properties");
-
-		prop.load(data);
 		url = prop.getProperty("url");
-		
+
 		return url;
 	}
-	
-    public  void takeScreenShots(WebDriver webdriver) throws IOException {
-        File srcFile = ((TakesScreenshot) webdriver).getScreenshotAs(OutputType.FILE);
 
-        File destFile = new File("/Users/jrexiti/Desktop/Resources/Images/" + timeStamp() + ".png");
+	public void takeScreenShots(WebDriver webdriver) throws IOException {
+		File srcFile = ((TakesScreenshot) webdriver).getScreenshotAs(OutputType.FILE);
 
-        FileUtils.copyFile(srcFile, destFile);
-    }
+		File destFile = new File("/Users/jrexiti/Desktop/Resources/Images/" + timeStamp() + ".png");
 
-    public  String timeStamp() {
+		FileUtils.copyFile(srcFile, destFile);
+	}
 
-        return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
-    }
+	public String timeStamp() {
+
+		return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
+	}
 
 }
