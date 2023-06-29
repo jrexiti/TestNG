@@ -1,17 +1,15 @@
-package package_01;
+package testngParams;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-public class annotations2 {
+public class login {
+	
 
 	WebDriver driver;
 
@@ -28,7 +26,7 @@ public class annotations2 {
 
 	}
 
-	@BeforeMethod
+	@Test
 	public void signIn() {
 		driver.get("http://www.teststore.automationtesting.co.uk/");
 		driver.findElement(By.cssSelector("[title] .hidden-sm-down")).click();
@@ -37,26 +35,6 @@ public class annotations2 {
 		driver.findElement(By.cssSelector("button#submit-login")).click();
 		System.out.println("logged In");
 
-	}
-
-	@Test
-	public void test() {
-		driver.findElement(By.linkText("CLOTHES")).click();
-
-	}
-
-	@AfterMethod
-	public void signOut() {
-		driver.findElement(By.cssSelector(".hidden-sm-down.logout")).click();
-		System.out.println("logged In");
-
-	}
-
-	@AfterSuite
-	public void end() {
-
-		driver.close();
-		driver.quit();
 	}
 
 }

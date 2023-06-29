@@ -1,4 +1,4 @@
-package package_01;
+package testngBasics;
 
 import java.util.concurrent.TimeUnit;
 

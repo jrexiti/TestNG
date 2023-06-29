@@ -8,7 +8,7 @@
 	<test thread-count="5" name="Test">
 
 		<classes>
-			<class name="package_01.parameterization"></class>
+			<class name="testngBasics.parameterization"></class>
 
 		</classes>
 	</test> <!-- Test -->

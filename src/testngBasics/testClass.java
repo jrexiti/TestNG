@@ -1,14 +1,17 @@
-package package_01;
+package testngBasics;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class dependsOnMethods {
+@Listeners(testngBasics.ItestListener.class)
+public class testClass {
 
 	WebDriver driver;
 
@@ -32,6 +35,8 @@ public class dependsOnMethods {
 
 	@Test
 	public void enterEmail() throws InterruptedException {
+
+		Assert.fail();
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("test@test.com");
 		Thread.sleep(3000);
 	}
@@ -42,7 +47,7 @@ public class dependsOnMethods {
 		Thread.sleep(3000);
 	}
 
-	@Test (dependsOnMethods = {"enterPassword"} )
+	@Test(dependsOnMethods = { "enterPassword" })
 	public void clickSignIn() throws InterruptedException {
 		driver.findElement(By.xpath("//button[@id='submit-login']")).click();
 	}

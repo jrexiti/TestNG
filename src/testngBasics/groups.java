@@ -1,15 +1,16 @@
-package package_01;
+package testngBasics;
 
 import org.testng.annotations.Test;
 
-public class testngXml {
+public class groups {
 
-	@Test
+	@Test(groups = { "smoke", "regression" })
 	public void method1() {
 		System.out.println("method: 1");
 
 	}
-	@Test
+
+	@Test(groups = { "smoke" })
 	public void method2() {
 		System.out.println("method: 2");
 

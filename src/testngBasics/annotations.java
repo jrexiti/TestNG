@@ -1,4 +1,4 @@
-package package_01;
+package testngBasics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
