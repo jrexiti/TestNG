@@ -2,18 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-	<groups>
-		<run>
-			<include name="regression"></include>
-		</run>
-	</groups>
+
+<parameter name="email" value="test@test.com"></parameter>
+<parameter name="password" value="test123"></parameter>
 
 
 	<test thread-count="5" name="Test">
 
 		<classes>
-			<class name="package_01.groups"></class>
-			<class name="package_01.groups2"></class>
+			<class name="package_01.parameterization"></class>
 
 		</classes>
 	</test> <!-- Test -->
