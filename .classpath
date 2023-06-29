@@ -14,5 +14,10 @@
 	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/selenium-jar/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/selenium-jar/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/commons-io-2.13.0/commons-io-2.13.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/commons-io-2.13.0/commons-io-2.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/commons-io-2.13.0/commons-io-2.13.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/commons-io-2.13.0/commons-io-2.13.0-tests.jar"/>
+	<classpathentry kind="lib" path="/Users/jrexiti/Desktop/Resources/commons-io-2.13.0/commons-io-2.13.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

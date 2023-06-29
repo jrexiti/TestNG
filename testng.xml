@@ -3,12 +3,11 @@
 <suite name="Suite">
 
 
-
-
 	<test thread-count="5" name="Test">
 
 		<classes>
-			<class name="testngBasics.parameterization"></class>
+			<class name="testngParams.login4"></class>
+
 
 		</classes>
 	</test> <!-- Test -->
