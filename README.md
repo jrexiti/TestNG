@@ -1,2 +1,2 @@
-# testNG-Maven
+# testNG-maven
 TestNG and maven brushup
