@@ -3,8 +3,6 @@
 <suite name="Suite">
 
 
-<parameter name="email" value="test@test.com"></parameter>
-<parameter name="password" value="test123"></parameter>
 
 
 	<test thread-count="5" name="Test">
