@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test thread-count="5" name="Test">
-<packages>
-<package name="package_01"></package>
-</packages>
+
+		<classes>
+			<class name="package_01.annotations"></class>
+		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

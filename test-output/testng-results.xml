@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-29T11:44:18 EDT" name="Suite" finished-at="2023-06-29T11:44:18 EDT" duration-ms="19">
+  <suite started-at="2023-06-29T12:09:14 EDT" name="Suite" finished-at="2023-06-29T12:09:17 EDT" duration-ms="2555">
     <groups>
     </groups>
-    <test started-at="2023-06-29T11:44:18 EDT" name="Test" finished-at="2023-06-29T11:44:18 EDT" duration-ms="19">
-      <class name="package_01.testng_01">
-        <test-method signature="sayHello()[pri:0, instance:package_01.testng_01@17a7f733]" started-at="2023-06-29T11:44:18 EDT" name="sayHello" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
+    <test started-at="2023-06-29T12:09:14 EDT" name="Test" finished-at="2023-06-29T12:09:17 EDT" duration-ms="2555">
+      <class name="package_01.annotations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:package_01.annotations@623a8092]" started-at="2023-06-29T12:09:11 EDT" name="setup" finished-at="2023-06-29T12:09:14 EDT" duration-ms="3657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sayHello -->
-      </class> <!-- package_01.testng_01 -->
-      <class name="package_01.testngXml4">
-        <test-method signature="method7()[pri:0, instance:package_01.testngXml4@21b2e768]" started-at="2023-06-29T11:44:18 EDT" name="method7" finished-at="2023-06-29T11:44:18 EDT" duration-ms="3" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:package_01.annotations@623a8092]" started-at="2023-06-29T12:09:14 EDT" name="test" finished-at="2023-06-29T12:09:17 EDT" duration-ms="2528" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method7 -->
-        <test-method signature="method8()[pri:0, instance:package_01.testngXml4@21b2e768]" started-at="2023-06-29T11:44:18 EDT" name="method8" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="end()[pri:0, instance:package_01.annotations@623a8092]" started-at="2023-06-29T12:09:17 EDT" name="end" finished-at="2023-06-29T12:09:17 EDT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method8 -->
-      </class> <!-- package_01.testngXml4 -->
-      <class name="package_01.testngXml2">
-        <test-method signature="method3()[pri:0, instance:package_01.testngXml2@5609159b]" started-at="2023-06-29T11:44:18 EDT" name="method3" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method3 -->
-        <test-method signature="method4()[pri:0, instance:package_01.testngXml2@5609159b]" started-at="2023-06-29T11:44:18 EDT" name="method4" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method4 -->
-      </class> <!-- package_01.testngXml2 -->
-      <class name="package_01.testngXml3">
-        <test-method signature="method5()[pri:0, instance:package_01.testngXml3@2118cddf]" started-at="2023-06-29T11:44:18 EDT" name="method5" finished-at="2023-06-29T11:44:18 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method5 -->
-        <test-method signature="method6()[pri:0, instance:package_01.testngXml3@2118cddf]" started-at="2023-06-29T11:44:18 EDT" name="method6" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method6 -->
-      </class> <!-- package_01.testngXml3 -->
-      <class name="package_01.testngXml">
-        <test-method signature="method1()[pri:0, instance:package_01.testngXml@57250572]" started-at="2023-06-29T11:44:18 EDT" name="method1" finished-at="2023-06-29T11:44:18 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method signature="method2()[pri:0, instance:package_01.testngXml@57250572]" started-at="2023-06-29T11:44:18 EDT" name="method2" finished-at="2023-06-29T11:44:18 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- package_01.testngXml -->
+        </test-method> <!-- end -->
+      </class> <!-- package_01.annotations -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
