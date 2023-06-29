@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T11:36:42 EDT" name="Suite" finished-at="2023-06-29T11:36:42 EDT" duration-ms="17">
+    <groups>
+    </groups>
+    <test started-at="2023-06-29T11:36:42 EDT" name="Test" finished-at="2023-06-29T11:36:42 EDT" duration-ms="17">
+      <class name="package_01.testngXml2">
+        <test-method signature="method3()[pri:0, instance:package_01.testngXml2@424e1977]" started-at="2023-06-29T11:36:42 EDT" name="method3" finished-at="2023-06-29T11:36:42 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method4()[pri:0, instance:package_01.testngXml2@424e1977]" started-at="2023-06-29T11:36:42 EDT" name="method4" finished-at="2023-06-29T11:36:42 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- package_01.testngXml2 -->
+      <class name="package_01.testngXml">
+        <test-method signature="method1()[pri:0, instance:package_01.testngXml@10d68fcd]" started-at="2023-06-29T11:36:42 EDT" name="method1" finished-at="2023-06-29T11:36:42 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:package_01.testngXml@10d68fcd]" started-at="2023-06-29T11:36:42 EDT" name="method2" finished-at="2023-06-29T11:36:42 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- package_01.testngXml -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
